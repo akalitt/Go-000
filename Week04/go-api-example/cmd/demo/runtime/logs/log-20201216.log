@@ -1,9 +1,3 @@
-#### 04week
-
-### 暂时还没有时间日志分级
-
-## log path  /runtime/logs
-
 [GO] [36m INFO[0m 2020-12-16 22:28:17 fd81cd0c-eb24-456b-9d62-b6e7c29117cb ● 200 |      16.691ms |    127.0.0.1 | GET /v1/tags/3  
  [(user_agent=PostmanRuntime/7.26.8 request_body=)]
  --------------------------------
@@ -54,5 +48,3 @@ net/http.(*conn).serve
 runtime.goexit
 	/usr/local/Cellar/go/1.14.2_1/libexec/src/runtime/asm_amd64.s:1373)]
  --------------------------------
-
-  

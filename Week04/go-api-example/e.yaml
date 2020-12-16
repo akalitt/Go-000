@@ -1,0 +1,14 @@
+db:
+  project: "go"
+  driver: "postgres"
+  name: "go-test"
+  host: "127.0.0.1"
+  port: "5432"
+  user: "sin"
+  password: ""
+  charset: "utf8"
+  ssl: "disable"
+  debug: true
+port: :9000
+runtimeRootPath: "./runtime/"
+logSavePath: "./logs/"
