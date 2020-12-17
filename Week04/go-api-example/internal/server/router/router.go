@@ -19,7 +19,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 
 	// 404 Handler.
 
-	tagAPI := InitBookAPI(model.DB)
+	tagAPI := initBookAPI(model.DB)
 
 	g.NoRoute(func(c *gin.Context) {
 		c.String(http.StatusNotFound, "The incorrect API route.")

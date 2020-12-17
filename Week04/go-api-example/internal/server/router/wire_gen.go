@@ -14,7 +14,7 @@ import (
 
 // Injectors from wire.go:
 
-func InitBookAPI(db *gorm.DB) api.TagAPI {
+func initBookAPI(db *gorm.DB) api.TagAPI {
 	tagRepository := repository.NewTagRepository(db)
 	tagService := service.NewTagService(tagRepository)
 	tagAPI := api.NewTagAPI(tagService)
